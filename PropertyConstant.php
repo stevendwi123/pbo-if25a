@@ -1,6 +1,8 @@
 <?php
 namespace Pbo\Marketplace;
-class produk{
+
+trait produk{
+    
     private string $kode;
     private string $nama;
     private int $harga;
